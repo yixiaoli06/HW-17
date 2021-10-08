@@ -8,15 +8,20 @@ vertical-align: top;
 font-family: helvetica, arial, sans-serif;
 }
 
-.header{
-background-image: url(../images/blueorangegradient.jpg);
+.logo{
+background: white;
+height: 100px;
+width: 110px;
+background-image: url("../HW-17/images/logo.png");
+background-repeat: no-repeat;
+background-position: left;
 }
 
-.logo{
-width: 23%;
+/*width: 23%;
 padding: 1%;
 text-align: center;
 }
+*/
 
 .nav{
 width: 73%;
@@ -34,7 +39,7 @@ margin-left: auto;
 background-color: orange;
 }
 
-.hero-img{
+.hero{
 height: 600px;
 padding: 25px;
 background-color: skyblue;
@@ -43,6 +48,10 @@ background-color: skyblue;
 .content{
 width: 500px;
 margin: 0 auto;
+}
+
+.hero-img{
+background-image: url("../HW-17/images/gradient1.jpg");
 }
 
 .footer{
