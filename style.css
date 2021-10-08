@@ -4,7 +4,7 @@ display: inline-block;
 vertical-align: top;
 }
 
-h1 {
+.h1 {
 font-family: helvetica, arial, sans-serif;
 }
 
@@ -22,21 +22,22 @@ text-align: center;
 width: 73%;
 padding: 1%;
 display: inline-block;
-background-color: grey;
+background-color:black;
 color: white;
 font-size: small;
 padding: 8px;
 }
 
-ul{
+.ul{
 width: 50%;
 margin-left: auto;
+background-color: orange;
 }
 
 .hero-img{
 height: 600px;
 padding: 25px;
-background-color: black;
+background-color: skyblue;
 }
 
 .content{
